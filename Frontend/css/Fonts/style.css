@@ -1,0 +1,57 @@
+/* =================================
+   CSS FONTS
+   ================================= */
+
+body {
+    margin: 0;
+    padding: 20px;
+
+    /* Google Font */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ================================
+   1. FONT FAMILY
+   ================================ */
+
+.font-family {
+    font-family: Arial, sans-serif;
+}
+
+
+/* ================================
+   2. FONT SIZE
+   ================================ */
+
+.font-size {
+    font-size: 24px;
+}
+
+
+/* ================================
+   3. FONT WEIGHT
+   ================================ */
+
+.font-weight {
+    font-weight: bold;
+}
+
+
+/* ================================
+   4. FONT STYLE
+   ================================ */
+
+.font-style {
+    font-style: italic;
+}
+
+
+/* ================================
+   5. GOOGLE FONT
+   ================================ */
+
+.google-font {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
