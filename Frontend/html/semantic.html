@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Semantic HTML Demonstration</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        article {
+            background-color: #eeeeee;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        aside {
+            background-color: #fff3cd;
+            padding: 20px;
+            margin-top: 25px;
+        }
+
+        details {
+            background-color: #e8f4ff;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =================================================
+         1. HEADER
+         ================================================= -->
+
+    <header>
+
+        <h1>My Technology Blog</h1>
+
+        <p>
+            Learning HTML, CSS and Web Development
+        </p>
+
+
+        <!-- Navigation inside Header -->
+
+        <nav>
+
+            <a href="#html">HTML</a>
+
+            <a href="#css">CSS</a>
+
+            <a href="#javascript">JavaScript</a>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =================================================
+         2. MAIN
+         ================================================= -->
+
+    <main>
+
+
+        <!-- =================================================
+             3. SECTION
+             ================================================= -->
+
+        <section id="html">
+
+            <h2>HTML Tutorials</h2>
+
+            <p>
+                This section contains content related
+                to HTML learning.
+            </p>
+
+
+            <!-- =================================================
+                 4. ARTICLE
+                 ================================================= -->
+
+            <article>
+
+                <h3>What is HTML?</h3>
+
+                <p>
+                    HTML stands for HyperText Markup Language.
+                    It is used to create the structure
+                    of webpages.
+                </p>
+
+                <p>
+                    HTML allows us to create headings,
+                    paragraphs, images, links, lists
+                    and many other elements.
+                </p>
+
+            </article>
+
+
+            <!-- Another Article -->
+
+            <article>
+
+                <h3>Why Learn HTML?</h3>
+
+                <p>
+                    HTML is one of the fundamental
+                    technologies used to build websites.
+                </p>
+
+            </article>
+
+        </section>
+
+
+
+        <!-- =================================================
+             ANOTHER SECTION
+             ================================================= -->
+
+        <section id="css">
+
+            <h2>CSS Tutorials</h2>
+
+            <p>
+                This section contains information
+                about CSS.
+            </p>
+
+
+            <article>
+
+                <h3>What is CSS?</h3>
+
+                <p>
+                    CSS stands for Cascading Style Sheets.
+                    It is used to control the appearance
+                    of HTML elements.
+                </p>
+
+            </article>
+
+        </section>
+
+
+
+        <!-- =================================================
+             5. ASIDE
+             ================================================= -->
+
+        <aside>
+
+            <h2>Related Information</h2>
+
+            <p>
+                This is an aside element.
+            </p>
+
+            <p>
+                It contains information related to
+                the main content but is not the primary
+                content of the page.
+            </p>
+
+
+            <h3>Related Topics</h3>
+
+            <ul>
+
+                <li>Web Development</li>
+
+                <li>Frontend Development</li>
+
+                <li>JavaScript</li>
+
+            </ul>
+
+        </aside>
+
+
+
+        <!-- =================================================
+             6. DETAILS + SUMMARY
+             ================================================= -->
+
+        <section>
+
+            <h2>Interactive HTML Example</h2>
+
+
+            <details>
+
+                <!-- summary = clickable heading -->
+
+                <summary>
+                    Click here to learn more about HTML
+                </summary>
+
+
+                <!-- Hidden content -->
+
+                <p>
+                    HTML provides the basic structure
+                    of a webpage.
+                </p>
+
+                <p>
+                    CSS can then be used to style that
+                    structure and JavaScript can add
+                    functionality.
+                </p>
+
+            </details>
+
+
+
+            <details>
+
+                <summary>
+                    What are semantic tags?
+                </summary>
+
+                <p>
+                    Semantic tags are HTML elements whose
+                    names describe the purpose of their
+                    content.
+                </p>
+
+                <p>
+                    Examples include header, main,
+                    section, article, aside and footer.
+                </p>
+
+            </details>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =================================================
+         7. FOOTER
+         ================================================= -->
+
+    <footer>
+
+        <p>
+            Copyright © 2026 My Technology Blog
+        </p>
+
+        <p>
+            Email: example@gmail.com
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
+
