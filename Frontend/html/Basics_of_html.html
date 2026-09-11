@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ==================================================
+         STRUCTURE TAGS
+         ================================================== -->
+
+    <!-- meta: Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- meta: Responsive webpage -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- meta: SEO description -->
+    <meta name="description"
+          content="Demonstration of basic HTML tags">
+
+    <!-- title: Browser tab title -->
+    <title>HTML Tags Demonstration</title>
+
+
+    <!-- link: Connect external CSS -->
+    <!--
+    <link rel="stylesheet" href="style.css">
+    -->
+
+
+    <!-- style: Internal CSS -->
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            line-height: 1.6;
+        }
+
+        .demo {
+            border: 1px solid gray;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        img {
+            width: 300px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- ==================================================
+         HTML BASICS
+         ================================================== -->
+
+    <h1>HTML Tags Demonstration</h1>
+
+    <p>
+        HTML stands for
+        <strong>HyperText Markup Language</strong>.
+    </p>
+
+    <p>
+        HTML is used to create the structure
+        of webpages.
+    </p>
+
+
+    <!-- ==================================================
+         1. NORMAL / PAIRED TAGS
+         ================================================== -->
+
+    <div class="demo">
+
+        <h2>1. Normal / Paired Tags</h2>
+
+        <p>
+            This is a paragraph.
+        </p>
+
+        <p>
+            This tag has both an
+            <b>opening tag</b>
+            and a
+            <b>closing tag</b>.
+        </p>
+
+        <!--
+            Example:
+
+            <p>This is a paragraph</p>
+        -->
+
+    </div>
+
+
+    <!-- ==================================================
+         2. SELF-CLOSING / VOID TAGS
+         ================================================== -->
+
+    <div class="demo">
+
+        <h2>2. Self-Closing / Void Tags</h2>
+
+        <p>
+            These elements do not have a closing tag.
+        </p>
+
+        <!-- br: Line break -->
+        First Line
+        <br>
+        Second Line
+
+
+        <!-- hr: Horizontal divider -->
+        <hr>
+
+
+        <!-- img: Image -->
+        <img
+            src="https://via.placeholder.com/300x150"
+            alt="Example placeholder image"
+        >
+
+    </div>
+
+
+    <!-- ==================================================
+         3. BLOCK-LEVEL TAGS
+         ================================================== -->
+
+    <div class="demo">
+
+        <h2>3. Block-Level Tags</h2>
+
+        <p>
+            Block-level elements normally start
+            on a new line.
+        </p>
+
+        <!-- div: Block-level element -->
+
+        <div>
+            This is a DIV block element.
+        </div>
+
+        <div>
+            This is another DIV block element.
+        </div>
+
+
+        <!-- p: Block-level element -->
+
+        <p>
+            This is a paragraph block element.
+        </p>
+
+        <p>
+            This is another paragraph.
+        </p>
+
+    </div>
+
+
+    <!-- ==================================================
+         4. INLINE TAGS
+         ================================================== -->
+
+    <div class="demo">
+
+        <h2>4. Inline Tags</h2>
+
+        <p>
+
+            This is normal text,
+
+            <span>
+                this is SPAN text
+            </span>
+
+            and
+
+            <a href="#">
+                this is a link
+            </a>
+
+            on the same line.
+
+        </p>
+
+    </div>
+
+
+    <!-- ==================================================
+         5. SEMANTIC TAGS
+         ================================================== -->
+
+    <div class="demo">
+
+        <h2>5. Semantic Tags</h2>
+
+        <p>
+            Semantic tags describe the meaning
+            of their content.
+        </p>
+
+
+        <!-- header -->
+
+        <header>
+
+            <h3>Header</h3>
+
+            <p>
+                This content is inside a header.
+            </p>
+
+        </header>
+
+
+        <!-- article -->
+
+        <article>
+
+            <h3>Article</h3>
+
+            <p>
+                This content represents an article.
+            </p>
+
+        </article>
+
+
+        <!-- footer -->
+
+        <footer>
+
+            <p>
+                This is footer content.
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <!-- ==================================================
+         6. TEXT & CONTENT TAGS
+         ================================================== -->
+
+    <div class="demo">
+
+        <h2>6. Text & Content Tags</h2>
+
+
+        <!-- h1 to h6 -->
+
+        <h1>H1 - Main Heading</h1>
+
+        <h2>H2 - Heading</h2>
+
+        <h3>H3 - Heading</h3>
+
+        <h4>H4 - Heading</h4>
+
+        <h5>H5 - Heading</h5>
+
+        <h6>H6 - Heading</h6>
+
+
+        <!-- p -->
+
+        <p>
+            This is a paragraph created
+            using the p tag.
+        </p>
+
+
+        <!-- br -->
+
+        <p>
+            First line
+            <br>
+            Second line
+            <br>
+            Third line
+        </p>
+
+
+        <!-- hr -->
+
+        <p>
+            Content above the horizontal divider.
+        </p>
+
+        <hr>
+
+        <p>
+            Content below the horizontal divider.
+        </p>
+
+    </div>
+
+
+    <!-- ==================================================
+         7. FORMATTING TAGS
+         ================================================== -->
+
+    <div class="demo">
+
+        <h2>7. Formatting Tags</h2>
+
+
+        <!-- b: Bold -->
+
+        <p>
+            <b>
+                This is bold text using B.
+            </b>
+        </p>
+
+
+        <!-- strong: Important text -->
+
+        <p>
+            <strong>
+                This is important text using STRONG.
+            </strong>
+        </p>
+
+
+        <!-- i: Italic -->
+
+        <p>
+            <i>
+                This is italic text using I.
+            </i>
+        </p>
+
+
+        <!-- em: Emphasized text -->
+
+        <p>
+            <em>
+                This is emphasized text using EM.
+            </em>
+        </p>
+
+
+        <!-- u: Underline -->
+
+        <p>
+            <u>
+                This is underlined text.
+            </u>
+        </p>
+
+
+        <!-- mark: Highlight -->
+
+        <p>
+            <mark>
+                This is highlighted text.
+            </mark>
+        </p>
+
+
+        <!-- small: Smaller text -->
+
+        <p>
+            <small>
+                This is smaller text.
+            </small>
+        </p>
+
+
+        <!-- del: Deleted text -->
+
+        <p>
+            <del>
+                This text has been deleted.
+            </del>
+        </p>
+
+
+        <!-- sub: Subscript -->
+
+        <p>
+            Water formula:
+            H<sub>2</sub>O
+        </p>
+
+
+        <!-- sup: Superscript -->
+
+        <p>
+            Mathematical formula:
+            X<sup>2</sup>
+        </p>
+
+
+        <!-- Combining formatting tags -->
+
+        <p>
+
+            This is
+
+            <strong>
+                <em>
+                    important and emphasized text
+                </em>
+            </strong>
+
+            together.
+
+        </p>
+
+    </div>
+
+
+    <!-- ==================================================
+         8. LINKS & NAVIGATION
+         ================================================== -->
+
+    <div class="demo">
+
+        <h2>8. Links & Navigation</h2>
+
+
+        <!-- a: External website -->
+
+        <p>
+
+            <a
+                href="https://www.google.com"
+                target="_blank"
+            >
+                Visit Google
+            </a>
+
+        </p>
+
+
+        <!-- a: Internal page link -->
+
+        <p>
+
+            <a href="#lists">
+                Go to Lists Section
+            </a>
+
+        </p>
+
+
+        <!-- a: Email -->
+
+        <p>
+
+            <a href="mailto:example@gmail.com">
+                Send Email
+            </a>
+
+        </p>
+
+
+        <!-- a: WhatsApp -->
+
+        <p>
+
+            <a href="https://wa.me/911234567890">
+                Contact on WhatsApp
+            </a>
+
+        </p>
+
+
+        <!-- a: SMS -->
+
+        <p>
+
+            <a href="sms:+911234567890">
+                Send SMS
+            </a>
+
+        </p>
+
+    </div>
+
+
+    <!-- ==================================================
+         9. MEDIA TAGS
+         ================================================== -->
+
+    <div class="demo">
+
+        <h2>9. Media Tags</h2>
+
+
+        <!-- img -->
+
+        <h3>Image</h3>
+
+        <img
+            src="https://via.placeholder.com/300x200"
+            alt="Example image showing HTML media"
+        >
+
+
+        <!-- audio -->
+
+        <h3>Audio</h3>
+
+        <audio controls>
+
+            <source
+                src="audio.mp3"
+                type="audio/mpeg"
+            >
+
+            Your browser does not support
+            the audio element.
+
+        </audio>
+
+
+        <!-- video -->
+
+        <h3>Video</h3>
+
+        <video
+            width="400"
+            controls
+        >
+
+            <source
+                src="video.mp4"
+                type="video/mp4"
+            >
+
+            Your browser does not support
+            the video element.
+
+        </video>
+
+
+        <!-- iframe -->
+
+        <h3>Iframe</h3>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="YouTube video"
+            allowfullscreen
+        >
+        </iframe>
+
+    </div>
+
+
+    <!-- ==================================================
+         10. LISTS
+         ================================================== -->
+
+    <div
+        class="demo"
+        id="lists"
+    >
+
+        <h2>10. Lists</h2>
+
+
+        <!-- ul: Unordered List -->
+
+        <h3>Unordered List</h3>
+
+        <ul>
+
+            <li>HTML</li>
+
+            <li>CSS</li>
+
+            <li>JavaScript</li>
+
+        </ul>
+
+
+        <!-- ol: Ordered List -->
+
+        <h3>Ordered List</h3>
+
+        <ol>
+
+            <li>Learn HTML</li>
+
+            <li>Learn CSS</li>
+
+            <li>Learn JavaScript</li>
+
+        </ol>
+
+
+        <!-- li: List Item -->
+
+        <h3>List Items</h3>
+
+        <ul>
+
+            <li>This is a list item.</li>
+
+            <li>This is another list item.</li>
+
+            <li>This is the third list item.</li>
+
+        </ul>
+
+
+        <!-- Nested List -->
+
+        <h3>Nested List</h3>
+
+        <ul>
+
+            <li>
+                Frontend
+
+                <ul>
+
+                    <li>HTML</li>
+
+                    <li>CSS</li>
+
+                    <li>JavaScript</li>
+
+                </ul>
+
+            </li>
+
+
+            <li>
+                Backend
+
+                <ul>
+
+                    <li>Python</li>
+
+                    <li>Java</li>
+
+                    <li>Node.js</li>
+
+                </ul>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- ==================================================
+         JAVASCRIPT
+         ================================================== -->
+
+    <script>
+
+        console.log("HTML demonstration page loaded!");
+
+    </script>
+
+
+</body>
+
+</html>
