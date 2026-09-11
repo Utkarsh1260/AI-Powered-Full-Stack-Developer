@@ -1,0 +1,72 @@
+/* ================================
+   COLORS
+   ================================ */
+
+/* Named Color */
+.named-color {
+    color: red;
+}
+
+/* HEX Color */
+.hex-color {
+    color: #ff5733;
+}
+
+/* RGB Color */
+.rgb-color {
+    color: rgb(0, 128, 0);
+}
+
+/* RGBA Color
+   The last value controls transparency */
+.rgba-color {
+    color: rgba(0, 0, 255, 0.5);
+}
+
+
+/* ================================
+   BACKGROUND COLORS
+   ================================ */
+
+.color-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+/* ================================
+   CSS UNITS
+   ================================ */
+
+/* px → Fixed size */
+.px-box {
+    width: 200px;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+/* % → Relative to parent */
+.percent-box {
+    width: 50%;
+    padding: 10px;
+    background-color: lightgreen;
+    margin: 10px;
+}
+
+/* em → Based on parent's font size */
+.em-box {
+    font-size: 2em;
+    padding: 10px;
+    background-color: lightyellow;
+    margin: 10px;
+}
+
+/* rem → Based on root HTML font size */
+.rem-box {
+    font-size: 2rem;
+    padding: 10px;
+    background-color: lightpink;
+    margin: 10px;
+}
