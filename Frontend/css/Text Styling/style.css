@@ -1,0 +1,67 @@
+/* =================================
+   CSS TEXT STYLING
+   ================================= */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* ================================
+   1. TEXT ALIGN
+   ================================ */
+
+/* Aligns text to the center */
+.align {
+    text-align: center;
+}
+
+
+/* ================================
+   2. TEXT TRANSFORM
+   ================================ */
+
+/* Converts text to uppercase */
+.transform {
+    text-transform: uppercase;
+}
+
+
+/* ================================
+   3. TEXT DECORATION
+   ================================ */
+
+/* Adds an underline */
+.decoration {
+    text-decoration: underline;
+}
+
+
+/* ================================
+   4. LINE HEIGHT
+   ================================ */
+
+/* Controls vertical spacing between lines */
+.line {
+    line-height: 1.5;
+}
+
+
+/* ================================
+   5. LETTER SPACING
+   ================================ */
+
+/* Adds space between individual letters */
+.letter {
+    letter-spacing: 2px;
+}
+
+
+/* ================================
+   6. WORD SPACING
+   ================================ */
+
+/* Adds space between words */
+.word {
+    word-spacing: 5px;
+}
