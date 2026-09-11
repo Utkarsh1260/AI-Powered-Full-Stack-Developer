@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <!-- Form Container -->
+    <form action="/submit-registration" method="POST">
+
+        <!-- ================= PERSONAL INFORMATION ================= -->
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <!-- Text Input -->
+            <label for="name">Full Name:</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+            >
+
+            <br><br>
+
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <br><br>
+
+            <!-- Password Input -->
+            <label for="password">Password:</label>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter password"
+                required
+            >
+
+            <br><br>
+
+            <!-- Number Input -->
+            <label for="age">Age:</label>
+            <input
+                type="number"
+                id="age"
+                name="age"
+                min="16"
+                max="60"
+                placeholder="Enter your age"
+            >
+
+        </fieldset>
+
+
+        <br>
+
+
+        <!-- ================= GENDER ================= -->
+
+        <fieldset>
+            <legend>Gender</legend>
+
+            <!-- Radio Buttons -->
+
+            <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+            >
+            <label for="male">Male</label>
+
+            <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+            >
+            <label for="female">Female</label>
+
+            <input
+                type="radio"
+                id="other"
+                name="gender"
+                value="other"
+            >
+            <label for="other">Other</label>
+
+        </fieldset>
+
+
+        <br>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <fieldset>
+            <legend>Skills</legend>
+
+            <p>Select your skills:</p>
+
+            <!-- Checkbox -->
+            <input
+                type="checkbox"
+                id="html"
+                name="skills"
+                value="HTML"
+            >
+            <label for="html">HTML</label>
+
+            <br>
+
+            <input
+                type="checkbox"
+                id="css"
+                name="skills"
+                value="CSS"
+            >
+            <label for="css">CSS</label>
+
+            <br>
+
+            <input
+                type="checkbox"
+                id="javascript"
+                name="skills"
+                value="JavaScript"
+            >
+            <label for="javascript">JavaScript</label>
+
+            <br>
+
+            <input
+                type="checkbox"
+                id="python"
+                name="skills"
+                value="Python"
+            >
+            <label for="python">Python</label>
+
+        </fieldset>
+
+
+        <br>
+
+
+        <!-- ================= COURSE ================= -->
+
+        <fieldset>
+            <legend>Course Information</legend>
+
+            <label for="course">Select your course:</label>
+
+            <select id="course" name="course" required>
+
+                <option value="">-- Select Course --</option>
+
+                <!-- Group 1 -->
+                <optgroup label="Web Development">
+
+                    <option value="frontend">
+                        Frontend Development
+                    </option>
+
+                    <option value="backend">
+                        Backend Development
+                    </option>
+
+                    <option value="fullstack">
+                        Full Stack Development
+                    </option>
+
+                </optgroup>
+
+                <!-- Group 2 -->
+                <optgroup label="Programming">
+
+                    <option value="python">
+                        Python Programming
+                    </option>
+
+                    <option value="java">
+                        Java Programming
+                    </option>
+
+                    <option value="cpp">
+                        C++ Programming
+                    </option>
+
+                </optgroup>
+
+            </select>
+
+        </fieldset>
+
+
+        <br>
+
+
+        <!-- ================= FILE UPLOAD ================= -->
+
+        <fieldset>
+            <legend>Document Upload</legend>
+
+            <label for="document">Upload Student ID:</label>
+
+            <input
+                type="file"
+                id="document"
+                name="document"
+            >
+
+        </fieldset>
+
+
+        <br>
+
+
+        <!-- ================= ADDRESS / MESSAGE ================= -->
+
+        <fieldset>
+            <legend>Address & Additional Information</legend>
+
+            <label for="address">Address:</label>
+
+            <br>
+
+            <textarea
+                id="address"
+                name="address"
+                rows="5"
+                cols="40"
+                placeholder="Enter your complete address"
+            ></textarea>
+
+            <br><br>
+
+            <label for="message">Additional Information:</label>
+
+            <br>
+
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                cols="40"
+                placeholder="Write something about yourself..."
+            ></textarea>
+
+        </fieldset>
+
+
+        <br>
+
+
+        <!-- ================= OUTPUT ================= -->
+
+        <fieldset>
+            <legend>Registration Output</legend>
+
+            <label for="registrationStatus">
+                Status:
+            </label>
+
+            <output id="registrationStatus">
+                Ready for registration
+            </output>
+
+        </fieldset>
+
+
+        <br>
+
+
+        <!-- ================= BUTTONS ================= -->
+
+        <!-- Submit Button -->
+        <button type="submit">
+            Register Student
+        </button>
+
+        <!-- Reset Button -->
+        <button type="reset">
+            Reset Form
+        </button>
+
+        <!-- Normal Button -->
+        <button type="button">
+            Check Details
+        </button>
+
+    </form>
+
+</body>
+
+</html>
