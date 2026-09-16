@@ -1,0 +1,66 @@
+/* =================================
+   CSS BOX MODEL
+   ================================= */
+
+/*
+    Every HTML element follows:
+
+    Content
+       ↓
+    Padding
+       ↓
+    Border
+       ↓
+    Margin
+*/
+
+
+/* Basic page styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* =================================
+   BOX MODEL
+   ================================= */
+
+.box {
+    width: 200px;
+    height: 100px;
+
+    /* Space between content and border */
+    padding: 10px;
+
+    /* Border around the element */
+    border: 2px solid black;
+
+    /* Space outside the border */
+    margin: 20px auto;
+
+    /*
+        border-box means:
+
+        width = content + padding + border
+        height = content + padding + border
+    */
+    box-sizing: border-box;
+
+    background-color: lightblue;
+}
+
+
+/* Content */
+
+.content {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
