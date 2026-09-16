@@ -1,0 +1,259 @@
+/* ==========================================
+   BASIC PAGE STYLING
+   ========================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.example {
+    width: 80%;
+    height: 250px;
+    margin: 30px auto;
+    padding: 30px;
+
+    border: 3px solid black;
+
+    color: white;
+
+    /* Add your image URL here */
+    background-image: url("https://images.unsplash.com/photo-1787487283519-ca25e4142eb9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8");
+}
+
+
+/* ==========================================
+   1. BACKGROUND COLOR
+   ========================================== */
+
+.color-example {
+    background-color: lightblue;
+}
+
+
+/* ==========================================
+   2. BACKGROUND IMAGE
+   ========================================== */
+
+.image-example {
+    background-image: url("https://images.unsplash.com/photo-1778944650798-7a94af35aadc?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8");
+
+    background-size: cover;
+}
+
+
+/* ==========================================
+   3. BACKGROUND REPEAT
+   ========================================== */
+
+.repeat-example {
+    background-image: url("https://plus.unsplash.com/premium_photo-1789127593857-20b34ce5dd5c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3fHx8ZW58MHx8fHx8");
+
+    background-repeat: repeat;
+
+    background-size: 150px 100px;
+}
+
+
+/* ==========================================
+   4. NO REPEAT
+   ========================================== */
+
+.no-repeat-example {
+    background-image: url("https://images.unsplash.com/photo-1788963799172-5d5a5e06912f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: 200px;
+}
+
+
+/* ==========================================
+   5. REPEAT X
+   ========================================== */
+
+.repeat-x-example {
+    background-image: url("https://images.unsplash.com/photo-1788770675045-8782a8a26223?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: repeat-x;
+
+    background-size: 150px 100px;
+}
+
+
+/* ==========================================
+   6. REPEAT Y
+   ========================================== */
+
+.repeat-y-example {
+    background-image: url("https://plus.unsplash.com/premium_photo-1788650757548-d9b614879c62?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: repeat-y;
+
+    background-size: 150px 100px;
+}
+
+
+/* ==========================================
+   7. CENTER
+   ========================================== */
+
+.position-example {
+    background-image: url("https://images.unsplash.com/photo-1723296637578-95124ce6024b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: 200px;
+}
+
+
+/* ==========================================
+   8. LEFT
+   ========================================== */
+
+.left-example {
+    background-image: url("https://images.unsplash.com/photo-1788888885129-0614c840c5b7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: no-repeat;
+
+    background-position: left;
+
+    background-size: 200px;
+}
+
+
+/* ==========================================
+   9. RIGHT
+   ========================================== */
+
+.right-example {
+    background-image: url("https://images.unsplash.com/photo-1788987259255-b45d400dd40f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyM3x8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: no-repeat;
+
+    background-position: right;
+
+    background-size: 200px;
+}
+
+
+/* ==========================================
+   10. TOP
+   ========================================== */
+
+.top-example {
+    background-image: url("https://plus.unsplash.com/premium_photo-1789052861826-1f513f73b405?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNnx8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: no-repeat;
+
+    background-position: top;
+
+    background-size: 200px;
+}
+
+
+/* ==========================================
+   11. BOTTOM
+   ========================================== */
+
+.bottom-example {
+    background-image: url("https://images.unsplash.com/photo-1789045969017-dfc6076822c7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: no-repeat;
+
+    background-position: bottom;
+
+    background-size: 200px;
+}
+
+
+/* ==========================================
+   12. COVER
+   ========================================== */
+
+.cover-example {
+    background-image: url("https://images.unsplash.com/photo-1765691622563-a57c825c8223?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzMXx8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+}
+
+
+/* ==========================================
+   13. CONTAIN
+   ========================================== */
+
+.contain-example {
+    background-image: url("https://images.unsplash.com/photo-1605122294630-e38d3a70561b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzM3x8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: contain;
+}
+
+
+/* ==========================================
+   14. AUTO
+   ========================================== */
+
+.auto-example {
+    background-image: url("https://plus.unsplash.com/premium_photo-1788992938212-5f30b8782ba1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNHx8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: auto;
+}
+
+
+/* ==========================================
+   15. CUSTOM SIZE
+   ========================================== */
+
+.custom-size-example {
+    background-image: url("https://images.unsplash.com/photo-1788823524741-fdb436ca937b?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzNnx8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: 200px 100px;
+}
+
+
+/* ==========================================
+   16. FIXED BACKGROUND
+   ========================================== */
+
+.fixed-example {
+    background-image: url("https://plus.unsplash.com/premium_photo-1788534653990-fefb96eec83c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzOHx8fGVufDB8fHx8fA%3D%3D");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    background-attachment: fixed;
+}
