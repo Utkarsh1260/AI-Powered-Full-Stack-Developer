@@ -1,0 +1,304 @@
+
+/* =========================================
+   BASIC PAGE
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f6f8;
+
+    color: #222;
+}
+
+
+header {
+    padding: 35px;
+
+    text-align: center;
+
+    background-color: #222;
+
+    color: white;
+}
+
+header h1 {
+    margin: 0 0 10px;
+}
+
+header p {
+    margin: 0;
+}
+
+
+/* =========================================
+   SECTION
+========================================= */
+
+.section {
+    width: 90%;
+    max-width: 900px;
+
+    margin: 30px auto;
+
+    padding: 25px;
+
+    background-color: white;
+
+    border: 2px solid #ddd;
+
+    border-radius: 10px;
+}
+
+
+.section h2 {
+    margin-top: 0;
+}
+
+
+/* =========================================
+   STAGE
+========================================= */
+
+.stage {
+    min-height: 180px;
+
+    padding: 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    border: 3px dashed #555;
+
+    background-color: #f9f9f9;
+
+    overflow: hidden;
+}
+
+
+/* =========================================
+   COMMON BOX
+========================================= */
+
+.box {
+    width: 130px;
+
+    height: 80px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #74b9ff;
+
+    border: 2px solid #0984e3;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* =========================================
+   1. TRANSLATE
+========================================= */
+
+.translate-box {
+    transition: transform 0.5s ease;
+}
+
+.translate-box:hover {
+    transform: translate(50px, 20px);
+}
+
+
+/* =========================================
+   2. TRANSLATE X
+========================================= */
+
+.translate-x-box {
+    transition: transform 0.5s ease;
+}
+
+.translate-x-box:hover {
+    transform: translateX(100px);
+}
+
+
+/* =========================================
+   3. TRANSLATE Y
+========================================= */
+
+.translate-y-box {
+    transition: transform 0.5s ease;
+}
+
+.translate-y-box:hover {
+    transform: translateY(50px);
+}
+
+
+/* =========================================
+   4. ROTATE
+========================================= */
+
+.rotate-box {
+    transition: transform 0.5s ease;
+}
+
+.rotate-box:hover {
+    transform: rotate(45deg);
+}
+
+
+/* =========================================
+   5. SCALE
+========================================= */
+
+.scale-box {
+    transition: transform 0.5s ease;
+}
+
+.scale-box:hover {
+    transform: scale(1.3);
+}
+
+
+/* =========================================
+   6. SKEW
+========================================= */
+
+.skew-box {
+    transition: transform 0.5s ease;
+}
+
+.skew-box:hover {
+    transform: skew(20deg);
+}
+
+
+/* =========================================
+   7. MULTIPLE TRANSFORMS
+========================================= */
+
+.multiple-box {
+    transition: transform 0.7s ease;
+}
+
+.multiple-box:hover {
+    transform:
+        translateX(50px)
+        rotate(20deg)
+        scale(1.2);
+}
+
+
+/* =========================================
+   8. TRANSFORM + TRANSITION
+========================================= */
+
+.smooth-box {
+    transition:
+        transform 0.5s ease,
+        background-color 0.5s ease;
+}
+
+.smooth-box:hover {
+    transform: translateY(-20px) scale(1.1);
+
+    background-color: #55efc4;
+}
+
+
+/* =========================================
+   9. CARD
+========================================= */
+
+.card {
+    width: 280px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    background-color: #a29bfe;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+.card:hover {
+    transform:
+        translateY(-10px)
+        scale(1.03);
+
+    box-shadow:
+        0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-icon {
+    font-size: 45px;
+}
+
+
+/* =========================================
+   10. BUTTON
+========================================= */
+
+.button {
+    padding: 15px 30px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #6c5ce7;
+
+    color: white;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+}
+
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    margin-top: 40px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    background-color: #222;
+
+    color: white;
+}
