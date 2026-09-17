@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flexbox Visual Playground</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CSS Flexbox</h1>
+        <p>Learn 1D layouts visually and practically</p>
+    </header>
+
+
+    <!-- =========================================
+         1. DISPLAY FLEX
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>1. display: flex</h2>
+
+        <p>
+            Applying <strong>display: flex</strong> makes the
+            parent a flex container.
+        </p>
+
+        <div class="container basic-flex">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         2. FLEX DIRECTION
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>2. flex-direction</h2>
+
+        <p>
+            Controls the direction in which flex items are arranged.
+        </p>
+
+        <h3>row</h3>
+
+        <div class="container direction-row">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+
+        </div>
+
+
+        <h3>column</h3>
+
+        <div class="container direction-column">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         3. JUSTIFY CONTENT
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>3. justify-content</h2>
+
+        <p>
+            Controls how items are positioned along the
+            <strong>main axis</strong>.
+        </p>
+
+        <h3>center</h3>
+
+        <div class="container justify-center">
+
+            <div class="small-box">1</div>
+            <div class="small-box">2</div>
+            <div class="small-box">3</div>
+
+        </div>
+
+
+        <h3>space-between</h3>
+
+        <div class="container justify-between">
+
+            <div class="small-box">1</div>
+            <div class="small-box">2</div>
+            <div class="small-box">3</div>
+
+        </div>
+
+
+        <h3>space-around</h3>
+
+        <div class="container justify-around">
+
+            <div class="small-box">1</div>
+            <div class="small-box">2</div>
+            <div class="small-box">3</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         4. ALIGN ITEMS
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>4. align-items</h2>
+
+        <p>
+            Controls the position of items along the
+            <strong>cross axis</strong>.
+        </p>
+
+        <div class="container align-center">
+
+            <div class="small-box">1</div>
+            <div class="tall-box">2</div>
+            <div class="small-box">3</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         5. GAP
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>5. gap</h2>
+
+        <p>
+            Creates space between flex items.
+        </p>
+
+        <div class="container gap-example">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         6. FLEX WRAP
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>6. flex-wrap</h2>
+
+        <p>
+            Allows items to move onto another line when
+            there isn't enough space.
+        </p>
+
+        <div class="container wrap-example">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         7. COMPLETE FLEXBOX EXAMPLE
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>7. Complete Flexbox Example</h2>
+
+        <p>
+            This combines the main properties together.
+        </p>
+
+        <div class="container complete-example">
+
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>HTML</p>
+            </div>
+
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>CSS</p>
+            </div>
+
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>JavaScript</p>
+            </div>
+
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>React</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         8. REAL WORLD NAVBAR
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>8. Real-World Example: Navbar</h2>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                MyWebsite
+            </div>
+
+            <div class="nav-links">
+
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">Contact</a>
+
+            </div>
+
+        </nav>
+
+    </section>
+
+
+    <footer>
+        <p>Practice Flexbox by changing the CSS properties 👨‍💻</p>
+    </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,345 @@
+
+/* =========================================
+   BASIC PAGE
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 35px;
+    background-color: #222;
+    color: white;
+}
+
+header h1 {
+    margin: 0 0 10px;
+}
+
+header p {
+    margin: 0;
+}
+
+
+/* =========================================
+   SECTION
+========================================= */
+
+.section {
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 30px auto;
+    padding: 25px;
+
+    background-color: white;
+
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.section h3 {
+    margin-top: 25px;
+}
+
+
+/* =========================================
+   COMMON FLEX CONTAINER
+========================================= */
+
+.container {
+    min-height: 150px;
+
+    padding: 20px;
+
+    border: 3px dashed #555;
+
+    background-color: #f9f9f9;
+}
+
+
+/* =========================================
+   COMMON BOX
+========================================= */
+
+.box {
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #74b9ff;
+
+    border: 2px solid #0984e3;
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* =========================================
+   1. DISPLAY FLEX
+========================================= */
+
+.basic-flex {
+    display: flex;
+}
+
+
+/* =========================================
+   2. FLEX-DIRECTION
+========================================= */
+
+.direction-row {
+    display: flex;
+
+    flex-direction: row;
+
+    gap: 10px;
+}
+
+.direction-column {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+/* =========================================
+   SMALL BOX
+========================================= */
+
+.small-box {
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #55efc4;
+
+    border: 2px solid #00b894;
+
+    font-weight: bold;
+}
+
+
+/* =========================================
+   3. JUSTIFY-CONTENT
+========================================= */
+
+.justify-center {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.justify-between {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.justify-around {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+
+/* =========================================
+   4. ALIGN-ITEMS
+========================================= */
+
+.align-center {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+.tall-box {
+    width: 70px;
+    height: 110px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fab1a0;
+
+    border: 2px solid #e17055;
+
+    font-weight: bold;
+}
+
+
+/* =========================================
+   5. GAP
+========================================= */
+
+.gap-example {
+    display: flex;
+
+    gap: 30px;
+}
+
+
+/* =========================================
+   6. FLEX-WRAP
+========================================= */
+
+.wrap-example {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+
+/* =========================================
+   7. COMPLETE FLEXBOX
+========================================= */
+
+.complete-example {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+
+/* =========================================
+   CARD
+========================================= */
+
+.card {
+    width: 200px;
+
+    padding: 25px;
+
+    background-color: #a29bfe;
+
+    border: 2px solid #6c5ce7;
+
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+
+/* =========================================
+   8. NAVBAR
+========================================= */
+
+.navbar {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px 30px;
+
+    background-color: #222;
+
+    border-radius: 8px;
+}
+
+
+.logo {
+    color: white;
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+
+.nav-links {
+    display: flex;
+
+    gap: 25px;
+}
+
+
+.nav-links a {
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    margin-top: 40px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    background-color: #222;
+
+    color: white;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+}
