@@ -1,0 +1,208 @@
+
+/* =========================================
+   BASIC PAGE STYLING
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+}
+
+header p {
+    margin: 0;
+}
+
+
+/* =========================================
+   SECTION
+========================================= */
+
+.demo-section {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.demo-section h2 {
+    margin-top: 0;
+}
+
+
+/* =========================================
+   1. BLOCK
+========================================= */
+
+.block-box {
+    display: block;
+
+    width: 100%;
+    height: 50px;
+
+    margin: 10px 0;
+    padding: 15px;
+
+    background-color: #ff7675;
+    border: 2px solid #d63031;
+
+    text-align: center;
+}
+
+
+/* =========================================
+   2. INLINE
+========================================= */
+
+.inline-box {
+    display: inline;
+
+    /*
+       Try changing this:
+
+       display: inline-block;
+
+       You will see that width and height
+       start working.
+    */
+
+    width: 150px;
+    height: 60px;
+
+    padding: 15px;
+
+    margin: 10px;
+
+    background-color: #74b9ff;
+    border: 2px solid #0984e3;
+}
+
+
+/* =========================================
+   3. INLINE-BLOCK
+========================================= */
+
+.inline-block-box {
+    display: inline-block;
+
+    width: 150px;
+    height: 80px;
+
+    margin: 10px;
+    padding: 25px 10px;
+
+    background-color: #55efc4;
+    border: 2px solid #00b894;
+
+    text-align: center;
+}
+
+
+/* =========================================
+   4. DISPLAY NONE
+========================================= */
+
+.visible-box {
+    display: block;
+
+    padding: 20px;
+    margin: 10px 0;
+
+    background-color: #ffeaa7;
+    border: 2px solid #fdcb6e;
+
+    text-align: center;
+}
+
+.hidden-box {
+    display: none;
+
+    padding: 20px;
+    margin: 10px 0;
+
+    background-color: #ff7675;
+    border: 2px solid #d63031;
+
+    text-align: center;
+}
+
+
+/* =========================================
+   5. PRACTICAL COMPARISON
+========================================= */
+
+.comparison-block {
+    display: block;
+
+    width: 200px;
+    height: 60px;
+
+    margin: 10px 0;
+    padding: 20px;
+
+    background-color: #a29bfe;
+
+    text-align: center;
+}
+
+
+.comparison-inline {
+    display: inline;
+
+    width: 200px;
+    height: 60px;
+
+    padding: 20px;
+
+    background-color: #81ecec;
+
+    text-align: center;
+}
+
+
+.comparison-inline-block {
+    display: inline-block;
+
+    width: 200px;
+    height: 60px;
+
+    margin: 5px;
+    padding: 20px;
+
+    background-color: #fab1a0;
+
+    text-align: center;
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    text-align: center;
+    padding: 30px;
+
+    background-color: #222;
+    color: white;
+}

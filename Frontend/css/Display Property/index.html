@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Display Property</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CSS Display Property</h1>
+        <p>Understanding how elements are rendered on the screen</p>
+    </header>
+
+
+    <!-- ================= BLOCK ================= -->
+
+    <section class="demo-section">
+
+        <h2>1. display: block</h2>
+
+        <p>
+            Block elements take the full available width
+            and start from a new line.
+        </p>
+
+        <div class="block-box">Block Element 1</div>
+        <div class="block-box">Block Element 2</div>
+        <div class="block-box">Block Element 3</div>
+
+    </section>
+
+
+    <!-- ================= INLINE ================= -->
+
+    <section class="demo-section">
+
+        <h2>2. display: inline</h2>
+
+        <p>
+            Inline elements stay on the same line.
+            Width and height do not work normally.
+        </p>
+
+        <span class="inline-box">Inline 1</span>
+        <span class="inline-box">Inline 2</span>
+        <span class="inline-box">Inline 3</span>
+
+    </section>
+
+
+    <!-- ================= INLINE-BLOCK ================= -->
+
+    <section class="demo-section">
+
+        <h2>3. display: inline-block</h2>
+
+        <p>
+            Inline-block elements stay on the same line,
+            but width and height work.
+        </p>
+
+        <div class="inline-block-box">Box 1</div>
+        <div class="inline-block-box">Box 2</div>
+        <div class="inline-block-box">Box 3</div>
+
+    </section>
+
+
+    <!-- ================= NONE ================= -->
+
+    <section class="demo-section">
+
+        <h2>4. display: none</h2>
+
+        <p>
+            The element is completely removed from the layout.
+        </p>
+
+        <div class="visible-box">
+            I am visible
+        </div>
+
+        <div class="hidden-box">
+            You cannot see me!
+        </div>
+
+        <div class="visible-box">
+            I am visible after the hidden element
+        </div>
+
+    </section>
+
+
+    <!-- ================= PRACTICAL COMPARISON ================= -->
+
+    <section class="demo-section">
+
+        <h2>5. Practical Comparison</h2>
+
+        <p>Same type of boxes with different display properties:</p>
+
+        <div class="comparison-block">
+            Block
+        </div>
+
+        <div class="comparison-inline">
+            Inline
+        </div>
+
+        <div class="comparison-inline">
+            Inline
+        </div>
+
+        <br><br>
+
+        <div class="comparison-inline-block">
+            Inline-Block
+        </div>
+
+        <div class="comparison-inline-block">
+            Inline-Block
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>Practice changing the display values in CSS 👨‍💻</p>
+    </footer>
+
+</body>
+</html>
