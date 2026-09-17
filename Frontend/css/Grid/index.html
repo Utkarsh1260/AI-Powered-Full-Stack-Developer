@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Grid Visual Playground</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CSS Grid</h1>
+        <p>Learn 2D layouts using rows and columns</p>
+    </header>
+
+
+    <!-- =========================================
+         1. DISPLAY GRID
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>1. display: grid</h2>
+
+        <p>
+            <strong>display: grid</strong> turns the parent
+            into a grid container.
+        </p>
+
+        <div class="grid basic-grid">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         2. GRID TEMPLATE COLUMNS
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>2. grid-template-columns</h2>
+
+        <p>
+            Defines how many columns the grid should have
+            and their sizes.
+        </p>
+
+        <div class="grid three-columns">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         3. REPEAT + 1FR
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>3. repeat(3, 1fr)</h2>
+
+        <p>
+            Creates 3 equal columns.
+            <strong>1fr</strong> means one fraction of available space.
+        </p>
+
+        <div class="grid repeat-grid">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         4. GRID TEMPLATE ROWS
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>4. grid-template-rows</h2>
+
+        <p>
+            Controls the height of rows.
+        </p>
+
+        <div class="grid rows-grid">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         5. GAP
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>5. gap</h2>
+
+        <p>
+            Creates space between rows and columns.
+        </p>
+
+        <div class="grid gap-grid">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         6. PLACE ITEMS
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>6. place-items: center</h2>
+
+        <p>
+            Centers the content inside each grid cell
+            both horizontally and vertically.
+        </p>
+
+        <div class="grid place-items-grid">
+
+            <div class="small-box">1</div>
+            <div class="small-box">2</div>
+            <div class="small-box">3</div>
+            <div class="small-box">4</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         7. COLUMN SPAN
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>7. grid-column</h2>
+
+        <p>
+            An item can occupy more than one column.
+        </p>
+
+        <div class="grid span-grid">
+
+            <div class="box wide-box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         8. REAL WORLD CARD GRID
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>8. Real-World Example: Card Grid</h2>
+
+        <div class="grid card-grid">
+
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Structure of webpages</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Styling webpages</p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Webpage interactions</p>
+            </div>
+
+            <div class="card">
+                <h3>React</h3>
+                <p>Building UI components</p>
+            </div>
+
+            <div class="card">
+                <h3>Node.js</h3>
+                <p>Backend development</p>
+            </div>
+
+            <div class="card">
+                <h3>MongoDB</h3>
+                <p>Database management</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         9. COMPLETE GRID EXAMPLE
+    ========================================== -->
+
+    <section class="section">
+
+        <h2>9. Complete Grid Example</h2>
+
+        <p>
+            This combines the major Grid properties.
+        </p>
+
+        <div class="grid complete-grid">
+
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>Practice CSS Grid by changing the properties 👨‍💻</p>
+    </footer>
+
+</body>
+</html>
