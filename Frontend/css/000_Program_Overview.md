@@ -1,6 +1,6 @@
 ### 📌 Folder Overview
 
-This folder contains **basic HTML programs** covering HTML tables and their different structural elements. It demonstrates how to create a table using rows, columns, headers, data cells, captions, column grouping, and table sections such as `thead`, `tbody`, and `tfoot`.
+This folder contains **basic CSS programs** covering fundamental and commonly used CSS concepts. It demonstrates CSS syntax and styling through selectors, colors and units, text styling, fonts, box model, backgrounds, animations, CSS units, display properties, flexbox, grid, positioning, pseudo-elements, responsive design, transforms, and transitions.
 
 ### 📌 Programs
 
