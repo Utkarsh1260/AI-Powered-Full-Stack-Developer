@@ -12,7 +12,7 @@ Focused on recreating the layout, navigation, cards, typography, spacing, and re
 This is an independent practice project and is not affiliated with or endorsed by Microsoft.
 
 **Repository:** [GitHub Repo](https://github.com/Utkarsh1260/Microsoft-Landing-Page-clone)  
-**Live Demo:** [Live Website](YOUR_VERCEL_LINK)
+**Live Demo:** [Live Website](https://microsoft-landing-page-clone-pearl.vercel.app/)
 
 ---
 
@@ -37,6 +37,17 @@ Built to practice full-stack development with Node.js, Express, MongoDB, and Rea
 
 **Repository:** [GitHub Repo](https://github.com/Utkarsh1260/ShopSecure)  
 **Live Demo:** [Live Website](https://shop-secure-d53g.vercel.app/)
+
+---
+
+## 4. Pokémon Gen I — Pikachu UI Recreation
+
+A frontend recreation of the Microsoft website built for practicing HTML and CSS.  
+Focused on recreating the layout, navigation, cards, typography, spacing, and responsive structure.  
+This is an independent practice project and is not affiliated with or endorsed by Microsoft.
+
+**Repository:** [GitHub Repo](https://github.com/Utkarsh1260/Assignment-1)  
+**Live Demo:** [Live Website](https://assignment-1-liart-mu.vercel.app/)
 
 ---
 
