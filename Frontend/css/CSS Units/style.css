@@ -1,0 +1,315 @@
+/* =========================================================
+   CSS UNITS DEMO
+   Units covered:
+   px, %, vh, vw, em, rem, vmin, vmax, dvh
+   ========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px; /* Used as the reference for rem */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #f4f6f8;
+    color: #17202a;
+}
+
+.hero {
+    min-height: 45vh;
+    padding: 8vh 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #17202a;
+    color: white;
+}
+
+.eyebrow {
+    font-size: 0.8rem;
+    letter-spacing: 0.15rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero h1 {
+    font-size: clamp(2rem, 6vw, 4.5rem);
+    line-height: 1.05;
+    margin-bottom: 1rem;
+}
+
+.hero > p:last-child {
+    max-width: 45rem;
+    font-size: 1.1rem;
+}
+
+.container {
+    width: min(90%, 1100px);
+    margin: 3rem auto;
+}
+
+.demo-section,
+.summary {
+    background: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #d9dee3;
+    border-radius: 12px;
+}
+
+.demo-section h2,
+.summary h2 {
+    margin-bottom: 0.75rem;
+}
+
+.definition {
+    margin-bottom: 0.5rem;
+}
+
+.working {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f0f3f5;
+    border-left: 4px solid #17202a;
+}
+
+/* ---------------------------------------------------------
+   1. PX
+   Fixed size.
+   --------------------------------------------------------- */
+
+.px-parent {
+    width: 100%;
+    padding: 1rem;
+    border: 2px dashed #777;
+}
+
+.px-box {
+    width: 200px;
+    height: 100px;
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: #dfe6e9;
+    border: 4px solid #17202a;
+}
+
+/* ---------------------------------------------------------
+   2. %
+   Relative to the relevant containing block.
+   --------------------------------------------------------- */
+
+.percent-parent {
+    width: 100%;
+    padding: 1rem;
+    border: 2px dashed #777;
+}
+
+.percent-box {
+    width: 60%;
+    min-height: 100px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: #dfe6e9;
+    border: 4px solid #17202a;
+}
+
+/* ---------------------------------------------------------
+   3. VH
+   25% of viewport height.
+   --------------------------------------------------------- */
+
+.vh-box {
+    height: 25vh;
+    display: grid;
+    place-items: center;
+    background: #dfe6e9;
+    border: 4px solid #17202a;
+}
+
+/* ---------------------------------------------------------
+   4. VW
+   50% of viewport width.
+   --------------------------------------------------------- */
+
+.vw-box {
+    width: 50vw;
+    max-width: 100%;
+    min-height: 100px;
+    display: grid;
+    place-items: center;
+    background: #dfe6e9;
+    border: 4px solid #17202a;
+}
+
+/* ---------------------------------------------------------
+   5. EM
+   Component-relative typography and spacing.
+   --------------------------------------------------------- */
+
+.em-parent {
+    font-size: 20px;
+    padding: 1em;
+    border: 2px dashed #777;
+}
+
+.em-box {
+    width: 15em;
+    max-width: 100%;
+    padding: 2em;
+    background: #dfe6e9;
+    border: 0.2em solid #17202a;
+}
+
+/* ---------------------------------------------------------
+   6. REM
+   Relative to html font-size.
+   html = 16px in this demo.
+   --------------------------------------------------------- */
+
+.rem-box {
+    width: 20rem;       /* 20 × 16px = 320px */
+    max-width: 100%;
+    padding: 1rem;      /* 1 × 16px = 16px */
+    background: #dfe6e9;
+    border: 0.25rem solid #17202a;
+}
+
+/* ---------------------------------------------------------
+   7. VMIN
+   Based on the smaller viewport dimension.
+   --------------------------------------------------------- */
+
+.vmin-box {
+    width: 30vmin;
+    height: 30vmin;
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 100%;
+    max-height: 80vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: #dfe6e9;
+    border: 4px solid #17202a;
+}
+
+/* ---------------------------------------------------------
+   8. VMAX
+   Based on the larger viewport dimension.
+   --------------------------------------------------------- */
+
+.vmax-box {
+    width: 20vmax;
+    height: 20vmax;
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 100%;
+    max-height: 70vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: #dfe6e9;
+    border: 4px solid #17202a;
+}
+
+/* ---------------------------------------------------------
+   9. DVH
+   Dynamic viewport height.
+   --------------------------------------------------------- */
+
+.dvh-box {
+    height: 30dvh;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #dfe6e9;
+    border: 4px solid #17202a;
+}
+
+.dvh-box span {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    max-width: 30rem;
+}
+
+/* ---------------------------------------------------------
+   Summary table
+   --------------------------------------------------------- */
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0.75rem;
+    border: 1px solid #d9dee3;
+}
+
+th {
+    background: #17202a;
+    color: white;
+}
+
+code {
+    font-family: Consolas, monospace;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
+    background: #17202a;
+    color: white;
+}
+
+/* ---------------------------------------------------------
+   Responsive condition
+   Here we intentionally use different units together.
+   --------------------------------------------------------- */
+
+@media (max-width: 600px) {
+    .container {
+        width: 94%;
+    }
+
+    .demo-section,
+    .summary {
+        padding: 1.25rem;
+    }
+
+    .hero {
+        padding: 10vh 6vw;
+    }
+
+    .hero h1 {
+        font-size: 10vw;
+    }
+
+    .em-parent {
+        font-size: 16px;
+    }
+
+    .vmin-box,
+    .vmax-box {
+        width: 45vmin;
+        height: 45vmin;
+    }
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <p class="eyebrow">CSS UNITS DEMO</p>
+        <h1>Understanding CSS Units</h1>
+        <p>
+            Resize the browser window and inspect the examples below.
+            Each section demonstrates how a different CSS unit behaves.
+        </p>
+    </header>
+
+    <main class="container">
+
+        <!-- 1. PX -->
+        <section class="demo-section">
+            <h2>1. px — Pixels</h2>
+            <p class="definition">
+                <strong>Definition:</strong> A fixed CSS length unit. The declared value
+                does not scale because the parent element changes size.
+            </p>
+            <p><strong>Use case:</strong> Borders, icons, small fixed spacing, and precise UI details.</p>
+
+            <div class="parent px-parent">
+                <div class="px-box">Width: 200px<br>Height: 100px</div>
+            </div>
+
+            <p class="working">
+                <strong>Working:</strong> The box stays approximately 200px wide and 100px high
+                even when the parent becomes wider or narrower.
+            </p>
+        </section>
+
+        <!-- 2. % -->
+        <section class="demo-section">
+            <h2>2. % — Percentage</h2>
+            <p class="definition">
+                <strong>Definition:</strong> A relative unit whose result depends on the
+                relevant containing/parent value for the property.
+            </p>
+            <p><strong>Use case:</strong> Fluid widths, columns, progress bars, and layouts.</p>
+
+            <div class="parent percent-parent">
+                <div class="percent-box">
+                    Width: 60% of parent
+                </div>
+            </div>
+
+            <p class="working">
+                <strong>Working:</strong> If the parent is 800px wide, 60% gives about 480px.
+                If the parent becomes 500px, the box becomes about 300px.
+            </p>
+        </section>
+
+        <!-- 3. VH -->
+        <section class="demo-section">
+            <h2>3. vh — Viewport Height</h2>
+            <p class="definition">
+                <strong>Definition:</strong> 1vh equals 1% of the viewport's height.
+            </p>
+            <p><strong>Use case:</strong> Hero sections, full-screen layouts, and vertical spacing.</p>
+
+            <div class="vh-box">
+                Height: 25vh
+            </div>
+
+            <p class="working">
+                <strong>Working:</strong> On a 800px-tall viewport, 25vh is 200px.
+                Change the browser height to see the box change.
+            </p>
+        </section>
+
+        <!-- 4. VW -->
+        <section class="demo-section">
+            <h2>4. vw — Viewport Width</h2>
+            <p class="definition">
+                <strong>Definition:</strong> 1vw equals 1% of the viewport's width.
+            </p>
+            <p><strong>Use case:</strong> Responsive widths, large headings, and viewport-based spacing.</p>
+
+            <div class="vw-box">
+                Width: 50vw
+            </div>
+
+            <p class="working">
+                <strong>Working:</strong> On a 1200px-wide viewport, 50vw is 600px.
+                Resize the browser horizontally to see it change.
+            </p>
+        </section>
+
+        <!-- 5. EM -->
+        <section class="demo-section">
+            <h2>5. em — Relative to Font Size</h2>
+            <p class="definition">
+                <strong>Definition:</strong> For most properties, em is based on the element's
+                computed font size. For an element's font-size, em is based on the inherited
+                font size from its parent.
+            </p>
+            <p><strong>Use case:</strong> Components where spacing and sizing should scale with typography.</p>
+
+            <div class="em-parent">
+                <p>Parent font-size: 20px</p>
+                <div class="em-box">
+                    Padding: 2em<br>
+                    Width: 15em
+                </div>
+            </div>
+
+            <p class="working">
+                <strong>Working:</strong> Because the box has a 20px font size, 2em padding
+                is 40px. If the component's font size changes, its em-based dimensions change too.
+            </p>
+        </section>
+
+        <!-- 6. REM -->
+        <section class="demo-section">
+            <h2>6. rem — Root em</h2>
+            <p class="definition">
+                <strong>Definition:</strong> rem is relative to the root HTML element's
+                computed font size.
+            </p>
+            <p><strong>Use case:</strong> Consistent typography, spacing systems, and accessible scaling.</p>
+
+            <div class="rem-box">
+                Width: 20rem<br>
+                Padding: 1rem
+            </div>
+
+            <p class="working">
+                <strong>Working:</strong> With the demo's root font size set to 16px,
+                20rem = 320px and 1rem = 16px.
+            </p>
+        </section>
+
+        <!-- 7. VMIN -->
+        <section class="demo-section">
+            <h2>7. vmin — Smaller Viewport Side</h2>
+            <p class="definition">
+                <strong>Definition:</strong> 1vmin equals 1% of the smaller value between
+                viewport width and viewport height.
+            </p>
+            <p><strong>Use case:</strong> Shapes and elements that should fit within either orientation.</p>
+
+            <div class="vmin-box">
+                Width: 30vmin<br>
+                Height: 30vmin
+            </div>
+
+            <p class="working">
+                <strong>Working:</strong> If the viewport is 1200×800, the smaller side is
+                800px, so 30vmin = 240px.
+            </p>
+        </section>
+
+        <!-- 8. VMAX -->
+        <section class="demo-section">
+            <h2>8. vmax — Bigger Viewport Side</h2>
+            <p class="definition">
+                <strong>Definition:</strong> 1vmax equals 1% of the larger value between
+                viewport width and viewport height.
+            </p>
+            <p><strong>Use case:</strong> Large decorative elements, oversized backgrounds, and responsive art.</p>
+
+            <div class="vmax-box">
+                Width: 20vmax<br>
+                Height: 20vmax
+            </div>
+
+            <p class="working">
+                <strong>Working:</strong> If the viewport is 1200×800, the larger side is
+                1200px, so 20vmax = 240px.
+            </p>
+        </section>
+
+        <!-- 9. DVH -->
+        <section class="demo-section">
+            <h2>9. dvh — Dynamic Viewport Height</h2>
+            <p class="definition">
+                <strong>Definition:</strong> 1dvh equals 1% of the current dynamic viewport
+                height. It is particularly useful on mobile browsers where browser UI can
+                expand or collapse.
+            </p>
+            <p><strong>Use case:</strong> Mobile full-screen sections, menus, dialogs, and app-like layouts.</p>
+
+            <div class="dvh-box">
+                Height: 30dvh
+                <span>Resize or use a mobile browser to observe viewport changes.</span>
+            </div>
+
+            <p class="working">
+                <strong>Working:</strong> The element uses the currently available dynamic
+                viewport height rather than a fixed pixel height.
+            </p>
+        </section>
+
+        <section class="summary">
+            <h2>Quick Comparison</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Unit</th>
+                            <th>Based On</th>
+                            <th>Common Use</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>px</td><td>Fixed CSS length</td><td>Precise UI details</td></tr>
+                        <tr><td>%</td><td>Relevant containing value</td><td>Fluid layouts</td></tr>
+                        <tr><td>vh</td><td>Viewport height</td><td>Vertical sizing</td></tr>
+                        <tr><td>vw</td><td>Viewport width</td><td>Horizontal sizing</td></tr>
+                        <tr><td>em</td><td>Element/inherited font size</td><td>Component scaling</td></tr>
+                        <tr><td>rem</td><td>Root HTML font size</td><td>Consistent spacing/type</td></tr>
+                        <tr><td>vmin</td><td>Smaller viewport side</td><td>Fit-to-screen shapes</td></tr>
+                        <tr><td>vmax</td><td>Larger viewport side</td><td>Large responsive elements</td></tr>
+                        <tr><td>dvh</td><td>Dynamic viewport height</td><td>Mobile full-screen UI</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Experiment: change the values in <code>style.css</code> and resize the browser.</p>
+    </footer>
+
+</body>
+</html>
