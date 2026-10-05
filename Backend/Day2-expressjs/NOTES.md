@@ -32,4 +32,3 @@ Today, I learned why we move from a normal Node.js HTTP server to the **Express.
 
 - **API Routes**  
   Practiced creating routes with Express and understanding how different endpoints respond to different HTTP methods.
-
