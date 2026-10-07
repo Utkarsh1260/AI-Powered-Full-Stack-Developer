@@ -11,6 +11,7 @@ var twoSum = function(nums, target) {
     };
 };
 
+
 let nums = prompt("Enter array values separated by commas: ");
 nums = nums.split(",").map(Number);
 
