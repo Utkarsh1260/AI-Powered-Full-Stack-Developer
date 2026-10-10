@@ -2,7 +2,7 @@
 
 ## 🖼️ **LeetCode Submission Images**
 
-🔗 **[📸 Click here to view all LeetCode submission screenshots](https://drive.google.com/drive/folders/1BJh5xjh_ewg_x6W0_g1i82jHkTLJvNPf?usp=sharing)**
+🔗 **[📸 Click here to view all LeetCode submission screenshots](https://drive.google.com/drive/folders/1sPul2bnk5U-eR9mgDd0YfHWMbisnv7AI?usp=sharing)**
 
 You can find the **LeetCode submission screenshot for each problem** in the Google Drive folder.
 
@@ -55,10 +55,13 @@ node file-name.js
 
 ### 📌 Programs
 
-| S.No. | Program Question | File Name |
-|------:|------------------|-----------|
-| 1 | Given an array of integers and a target value, return the indices of the two numbers whose sum equals the target. | `LC - 1/two-sum.js` |
-
+| S.No. | Program Question | File Name | LeetCode | Difficulty |
+|------:|------------------|-----------|-----------|------------|
+| 1 | Given an array of integers and a target value, return the indices of the two numbers whose sum equals the target. | `two-sum.js` | **LC-1** | **Easy** |
+| 2 | Given a sorted integer array `nums`, remove duplicates in-place so each unique element appears only once, keep the unique elements in sorted order in the first `k` positions, and return `k`. | `remove-duplicates.js` | **LC-26** | **Easy** |
+| 3 | Given an integer array `nums`, move all zeros to the end while maintaining the relative order of the non-zero elements. Modify the array in-place without making a copy of it. | `move-zeroes.js` | **LC-283**  | **Easy**  |
+| 4 | Given an integer array `nums`, rotate the array to the right by `k` steps, where `k` is a non-negative integer. Modify the array in-place, and try to achieve | `rotate-array-right-by-k.js` | **LC-189**   | **Medium** |
+| 5     | Given an integer array `nums`, return all unique triplets whose elements sum to `0`. Each triplet must use three different indices, and the result must not contain duplicate triplets. | `three-sum.js` | **LC-15**    | **Medium**     |
 ---
 
 ## 📅 Week 2
