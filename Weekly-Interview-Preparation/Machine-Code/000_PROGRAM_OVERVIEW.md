@@ -14,22 +14,6 @@ Each project will include a **GitHub repository link, live deployed link, and Yo
 |------:|------------------------|-------------|-----------|------------|-------|
 | 1 | Interview Practice Tracker | Add GitHub link | Add live link | Add YouTube link | Frontend Machine Coding |
 
-### 🎯 Requirements
-
-- Responsive interview-preparation dashboard
-- Track total questions and completion progress
-- Add questions with category, difficulty, and status
-- Search and filter questions
-- Store data using `LocalStorage`
-- Responsive desktop and mobile UI
-- Empty state and no-search-results state
-- Form validation
-- Clean and readable code
-- README with setup steps, features, and assumptions
-
-**⏱ Time Limit:** 2.5 hours  
-**⚙️ Stack:** HTML, CSS, JavaScript or React  
-**🚫 Backend:** Not required
 
 ---
 
