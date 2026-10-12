@@ -1,6 +1,6 @@
 ### 📌 Programs
 
-| S.No. | Program / Project Question | File Name |
+| S.No. | Program Question | File Name |
 | ----: | -------------------------- | --------- |
 | 1 | Demonstrate arithmetic operators using two numbers, `a = 10` and `b = 3`, including addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), modulus (`%`), and exponentiation (`**`). | `arithmetic-operators.js` |
 | 2 | Demonstrate increment (`++`) and decrement (`--`) operators, including pre-increment, post-increment, pre-decrement, and post-decrement, and compare their behavior using `console.log()`. | `increment-decrement-operators.js` |
