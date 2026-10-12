@@ -1,6 +1,6 @@
 ### 📌 Programs
 
-| S.No. | Program / Project Question | File Name |
+| S.No. | Program Question | File Name |
 | ----: | ------------------------- | --------- |
 | 1 | Display normal messages using `console.log()` | `console-log.js` |
 | 2 | Display warning messages using `console.warn()` | `console-warn.js` |
