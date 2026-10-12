@@ -1,7 +1,3 @@
-### 📌 Folder Overview
-
-This folder contains **basic JavaScript programs** demonstrating variable declarations, naming rules, and naming conventions. It covers the differences between `var`, `let`, and `const`, including reassignment, redeclaration, scope, and hoisting. It also demonstrates valid and invalid variable names, case sensitivity, and standard naming conventions used to write clean, readable, and maintainable JavaScript code.
-
 ### 📌 Programs
 
 | S.No. | Program / Project Question | File Name |
