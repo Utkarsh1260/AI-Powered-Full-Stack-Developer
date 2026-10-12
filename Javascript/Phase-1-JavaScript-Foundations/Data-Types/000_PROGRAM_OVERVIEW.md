@@ -48,7 +48,7 @@ console.log(Boolean(function() {})); // true
 
 ### 📌 Programs
 
-| S.No. | Program / Project Question | File Name |
+| S.No. | Program Question | File Name |
 | ----: | -------------------------- | --------- |
 | 1 | Write a JavaScript program to demonstrate all seven primitive data types (string, number, boolean, null, undefined, symbol, and bigint) and the non-primitive object type. Declare variables with appropriate values, use typeof to identify their types, and display the results using console.log(). Also, demonstrate the difference between null and undefined | `javascript-data-types.js` |
 | 2 | Write a JavaScript program to demonstrate the typeof operator. Check and display the types of strings, numbers, booleans, undefined, null, objects, arrays, and functions using console.log(). Observe the special behavior of typeof null, which returns "object", and explain why arrays also return "object" while functions return "function" | `typeof-operator.js` |
