@@ -1,7 +1,3 @@
-### 📌 Folder Overview
-
-This folder contains **basic JavaScript programs** demonstrating commonly used console methods, including `console.log()`, `console.warn()`, `console.error()`, and `console.table()`. It also includes a mini-project that applies these concepts to practical scenarios such as e-commerce order validation and processing.
-
 ### 📌 Programs
 
 | S.No. | Program / Project Question | File Name |
