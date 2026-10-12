@@ -1,9 +1,3 @@
-### 📌 Folder Overview
-
-This folder contains **basic JavaScript programs** demonstrating commonly used operators, including arithmetic, increment and decrement, assignment, comparison, equality, logical, short-circuit, and ternary operators. It covers mathematical calculations, variable updates, value comparisons, type coercion, logical evaluation, and conditional expressions through practical examples using `console.log()`.
-
----
-
 ### 📌 Programs
 
 | S.No. | Program / Project Question | File Name |
