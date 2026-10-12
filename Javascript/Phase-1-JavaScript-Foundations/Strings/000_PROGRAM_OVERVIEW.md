@@ -1,6 +1,6 @@
 ### 📌 Programs
 
-| S.No. | Program / Project Question | File Name |
+| S.No. | Program Question | File Name |
 | ----: | ------------------------- | --------- |
 | 1   | Write a JavaScript program to demonstrate how strings can be created using single quotes (`' '`), double quotes (`" "`), and backticks (` `` `). Store each string in a separate variable and display the values using `console.log()`. | `string-basics.js` |
 | 2   | Write a JavaScript program to demonstrate string concatenation using the `+` operator. Declare two variables, `firstName = "Aman"` and `lastName = "Kumar"`, combine them with a space to create a `fullName` variable, and display the full name using `console.log()`. | `string-concatenation.js` |
