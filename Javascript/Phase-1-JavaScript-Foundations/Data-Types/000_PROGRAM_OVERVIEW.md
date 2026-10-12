@@ -1,9 +1,3 @@
-### 📌 Folder Overview
-
-This folder contains **basic JavaScript programs** demonstrating data types, the `typeof` operator, type conversion, type coercion, and truthy vs falsy values. It covers primitive and non-primitive data types, the behavior of `typeof` with different values, explicit type conversion using `Number()`, `String()`, and `Boolean()`, and implicit type coercion during operations. It also includes practical examples of JavaScript Boolean evaluation to understand how different values behave in conditional expressions.
-
----
-
 ## 📌 JavaScript Truthy vs Falsy Values
 
 ### ❌ Falsy Values vs ✅ Truthy Values
