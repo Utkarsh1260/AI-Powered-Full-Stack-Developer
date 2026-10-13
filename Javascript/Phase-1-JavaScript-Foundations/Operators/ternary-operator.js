@@ -2,9 +2,9 @@
 // 1. Basic Example
 let age = 20;
 
-let status = age >= 18 ? "Adult" : "Minor";
+let statuss = age >= 18 ? "Adult" : "Minor";
 
-console.log("Status:", status);
+console.log("Status:", statuss);
 
 
 // 2. Checking Eligibility
@@ -29,3 +29,12 @@ let username = "";
 let displayName = username ? username : "Guest";
 
 console.log("Display Name:", displayName);
+
+
+// 5. Find the Greater Number
+let a = 15;
+let b = 25;
+
+let greater = a > b ? a : b;
+
+console.log("Greater Number:", greater); // 25
