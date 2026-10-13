@@ -7,3 +7,10 @@
 | 3   | Write a JavaScript program to demonstrate template literals using backticks and variable interpolation with `${...}`. Declare variables `name = "Aman"` and `age = 25`, then display a sentence containing both values. Also, create and display a multi-line string using a template literal. | `template-literals.js` |
 | 4   | Write a JavaScript program to demonstrate useful string properties and methods, including `length`, `toUpperCase()`, `toLowerCase()`, `indexOf()`, `includes()`, `slice()`, `substring()`, `replace()`, `split()`, `trim()`, `repeat()`, `startsWith()`, `endsWith()`, and `charAt()`. Also, demonstrate accessing a character using bracket notation (`s[0]`). Display the results using `console.log()`. | `string-methods.js` |
 | 5   | Write a JavaScript program to demonstrate string immutability. Declare a variable `x = "hello"`, call `toUpperCase()` without assigning the result back to `x`, and display the original value. Then assign the returned value to `x` and display it again to show that string methods return a new string without modifying the original string. | `string-immutability.js` |
+| 6   | Convert the number 100 into a string. | `no-to-string.js` |
+| 7   | Use parseInt() on "500px". | `parse-int.js` |
+| 8   | Extract the word "World" from "Hello World".". | `extract-world.js` |
+| 9   | Replace "apple" with "mango" in a sentence. | `replace.js` |
+| 10  | Split "HTML,CSS,JS" into an array. | `split-into-array.js` |
+| 11  | Remove extra spaces from a string. | `remove-space.js` |
+| 12  | Repeat the word "Hi" 5 times. | `repeat-hii.js` |
