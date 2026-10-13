@@ -7,7 +7,6 @@
 | 3 | Write a JavaScript program to demonstrate non-mutating array methods: `slice()`, `concat()`, `includes()`, `indexOf()`, and `join()`. Display the results and verify that the original array remains unchanged. | `array-non-mutating-methods.js` |
 | 4 | Array iteration. | `array-non-mutating-methods.js` |
 | 5  | Write a JavaScript program to demonstrate the `forEach()` method by printing each array element, its index, and its doubled value.        | `array-foreach.js`    |
-| -- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
 | 6  | Write a JavaScript program to demonstrate the `map()` method by creating a new array containing the doubled values of the original array. | `array-map.js`        |
 | 7  | Write a JavaScript program to demonstrate the `filter()` method by extracting all even numbers from an array.                             | `array-filter.js`     |
 | 8  | Write a JavaScript program to demonstrate the `reduce()` method by calculating the sum of all numbers in an array.                        | `array-reduce.js`     |
