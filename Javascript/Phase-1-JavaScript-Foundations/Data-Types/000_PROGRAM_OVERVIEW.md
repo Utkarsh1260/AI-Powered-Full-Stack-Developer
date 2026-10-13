@@ -56,3 +56,4 @@ console.log(Boolean(function() {})); // true
 | 4 | Create a variable with value null and check its type. | `null-type.js` |
 | 5 | Create a bigint number and print it. | `big-int.js` |
 | 6   | Write a JavaScript program to check whether an empty string (`""`), `0`, and an empty array (`[]`) are truthy or falsy. Also, create a variable and print `"Valid"` if it contains a truthy value; otherwise, print `"Invalid"`. | `truthy-falsy.js` |
+
