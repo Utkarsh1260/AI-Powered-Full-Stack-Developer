@@ -1,0 +1,1 @@
+let merged = Object.assign({}, person, { age: 26, country: "India" });
