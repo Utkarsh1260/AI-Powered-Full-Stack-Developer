@@ -1,11 +1,5 @@
 # 🧠 Git & GitHub Question Practice
 
-## 📌 Folder Overview
-
-This folder contains my **Git & GitHub questions**, organized week by week.
-
-Each question will also include a **YouTube video link** for live practice. You can watch my practice and provide feedback to help me improve further.
-
 ## 📅 Week 1
 
 ### 📌 Questions
