@@ -22,3 +22,4 @@
 | 8 | Write a JavaScript program to demonstrate `Object.freeze()` and `Object.seal()` and their effects on object properties. | `object-freeze-seal.js`         |
 | 9 | Object.assign — Merge objects (older syntax) | `merge-objects.js`         |
 | 10 | Write a JavaScript program to demonstrate three ways to loop through an object using `for...in`, `Object.keys().forEach()`, and `Object.entries()` with destructuring. | `object-looping.js` |
+| 11 | Write a JavaScript program to create an array of objects and display each object's properties using a loop. | `array-of-objects.js` |
