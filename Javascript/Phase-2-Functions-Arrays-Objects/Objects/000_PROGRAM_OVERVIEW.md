@@ -1,13 +1,3 @@
-### 10. Objects vs Arrays — When to Use Which?
-
-| Use an **array** when... | Use an **object** when... |
-| --- | --- |
-| Order matters | You're describing a single thing |
-| Items are similar (a list) | Each property has a different meaning |
-| You'll loop through all items | You'll access specific named values |
-
----
-
 ### 📌 Programs
 
 | S.No. | Program Question | File Name |
