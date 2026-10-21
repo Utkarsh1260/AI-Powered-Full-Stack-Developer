@@ -10,4 +10,8 @@
 | 6 | Use spread and rest with arrays and objects. | `spread-rest-arrays-objects.js` |
 | 7 | Create, access, update, and delete object properties. | `object-properties-crud.js` |
 | 8 | Loop through an object using `Object.keys()`, `Object.values()`, and `Object.entries()`. | `object-keys-values-entries.js` |
+| 9 | Create a function to check whether a string is a palindrome. | `check-palindrome.js` |
+| 10 | Write a function to count vowels in a string. | `count-vowels.js` |
+| 11 | Write a callback function example using `setTimeout()`. | `callback-settimeout.js` |
+| 12 | Create a higher-order function that executes another function twice. | `higher-order-function-twice.js` |
 
