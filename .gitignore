@@ -1,3 +1,5 @@
+*.png
+*.html
+node_modules
 
-
-*.md
+# *.md
