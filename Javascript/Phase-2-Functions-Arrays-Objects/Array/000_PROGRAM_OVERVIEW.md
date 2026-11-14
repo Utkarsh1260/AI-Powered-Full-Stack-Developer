@@ -17,3 +17,4 @@
 | 13 | Write a JavaScript program to demonstrate array destructuring by extracting values, skipping elements, assigning default values, and swapping two variables. | `array-destructuring.js` |
 | 14 | Write a JavaScript program to demonstrate spread and rest operators with arrays and functions. | `array-spread-rest.js` |
 | 15 | Write a JavaScript program to demonstrate a two-dimensional array by accessing elements and printing all values using nested loops. | `multidimensional-arrays.js` |
+| 16 | Merge two arrays using `concat()`. | `mergeTwoArrays.js` |
