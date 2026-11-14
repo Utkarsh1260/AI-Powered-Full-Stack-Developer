@@ -13,3 +13,5 @@
 | 9 | Object.assign — Merge objects (older syntax) | `merge-objects.js`         |
 | 10 | Write a JavaScript program to demonstrate three ways to loop through an object using `for...in`, `Object.keys().forEach()`, and `Object.entries()` with destructuring. | `object-looping.js` |
 | 11 | Write a JavaScript program to create an array of objects and display each object's properties using a loop. | `array-of-objects.js` |
+| 12 | Write a function to count the number of properties in an object. | `countProperties.js` |
+| 13 | Check whether the `"email"` property exists in an object using the `in` operator. | `checkPropertyExists.js` |
